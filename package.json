@@ -1,0 +1,17 @@
+{
+  "name": "piano",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i styles/tailwind.css -o styles/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^2.2.17"
+  },
+  "dependencies": {
+    "tailwindcss-cli": "^0.1.2"
+  }
+}
