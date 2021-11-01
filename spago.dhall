@@ -13,11 +13,13 @@ to generate this file without the comments in this block.
 { name = "my-project"
 , dependencies =
   [ "aff"
+  , "arrays"
   , "console"
   , "debug"
   , "effect"
   , "halogen"
   , "halogen-svg-elems"
+  , "integers"
   , "maybe"
   , "prelude"
   , "psci-support"
