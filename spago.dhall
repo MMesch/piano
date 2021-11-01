@@ -14,6 +14,7 @@ to generate this file without the comments in this block.
 , dependencies =
   [ "aff"
   , "console"
+  , "debug"
   , "effect"
   , "halogen"
   , "halogen-svg-elems"
@@ -23,6 +24,7 @@ to generate this file without the comments in this block.
   , "routing"
   , "routing-duplex"
   , "strings"
+  , "web-html"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]

@@ -6,6 +6,7 @@ import Data.Generic.Rep (class Generic)
 
 data Page
   = Main
+  | Play
 
 derive instance genericPage :: Generic Page _
 
