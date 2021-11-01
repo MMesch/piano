@@ -1,2 +1,2 @@
 purescript: spago bundle-app -w -t build/ps.js
-parcel: parcel index.html
+parcel: parcel --public-url /piano/ index.html
